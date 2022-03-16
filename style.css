@@ -100,7 +100,7 @@ button{
 }
 
 .luxury:hover{
-    background-color:hsl(184, 100%, 22%);
+    background-color:hsl(179, 100%, 13%);
     color:hsl(0, 0%, 95%);
     transition: 1s ease;  
 }
