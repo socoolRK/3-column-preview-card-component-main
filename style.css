@@ -70,25 +70,39 @@ button{
     width: 130px;
     padding: 12px;
     border-radius: 30px;
-    border-style: none;
     margin-bottom: 18px;
     cursor: pointer;
+    background-color:hsl(0, 0%, 95%);
 }
 
-button:hover{
-    background-color: hsl(0, 0%, 95%);
-    transition: 1s ease;
-}
-#sedan{
+.sedan{
     color: hsl(31, 77%, 52%);
 }
 
-#suv{
-    color:hsl(184, 100%, 22%) ;
+.sedan:hover{
+    background-color:hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%);
+    transition: 1s ease;
 }
 
-#luxury{
+.suv{
+    color:hsl(184, 100%, 22%);
+}
+
+.suv:hover{
+    background-color:hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+    transition: 1s ease;
+}
+
+.luxury{
     color: hsl(179, 100%, 13%);
+}
+
+.luxury:hover{
+    background-color:hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+    transition: 1s ease;  
 }
 
 .icon{
